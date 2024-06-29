@@ -1,8 +1,10 @@
-# ImdbListAndChartsExtractor
-Extracts imdb.com lists or charts out of imdb.com for use elsewhere.
+# ImdbListChartsAndAdvancedSearchExtractor
+ListAndChartsExtractor.py: Extracts imdb.com lists or charts out of imdb.com for use elsewhere.
+AdvancedSearchExtractor.py: Extracts imdb.com advanced searches out of imdb.com for use elsewhere.
 
-Write the amount of movies and/or shows you would like to see from the list or chart to the right of "listLength=".
-View an imdb.com list or chart's source in your browser and then paste it in the blank line underneath the "webPage="""" line of code.
+Copy and paste the code elsewhere. Write the amount of movies and/or shows you would like to see from the list, chart, or advanced search to the right of "listLength=". If you write a number bigger than the amount of titles on the page then you'll get code that has nothing to do with movie or show titles.
+
+View an imdb.com list, chart, or advanced search's source in your browser and then paste it in the blank line underneath the "webPage="""" line of code.
 
 This can be ran in an online interpreter, such as the following: https://www.online-python.com/
 
